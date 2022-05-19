@@ -6,25 +6,64 @@ body {
 h1 {
     font-size: 400%;
     color: rgb(0, 255, 0);
+    text-shadow: 2px 2px 2px rgb(12, 12, 12);
     font-style: italic;
     text-align: center;
     margin-top: 100px;
     font-weight: bold;
+    margin-bottom: 25px;
 }
 
 h3 {
-    font-size: 300%;
+    font-size: 350%;
     color: rgb(183, 0, 255);
+    text-shadow: 2px 2px 2px rgb(255, 255, 0);
     font-style: italic;
     text-align: center;
+    margin-bottom: 25px;
+    font-family: cursive;
 }
 
 p {
+    border: 10px double rgb(0, 17, 255);
+    box-shadow: 4px 4px 8px 10px rgb(255, 94, 0);
+    text-shadow: 1px 1px 1px rgb(12, 12, 12);
+    padding: 50px;
     font-size: 36px;
     color: rgb(68, 0, 255);
     text-align: center;
     margin-left: 250px;
     margin-right: 250px;
     text-align: left;
+    margin-bottom: 25px;
+}
 
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+ul li {
+    border: 10px double rgb(0, 17, 255);
+    background-color: rgb(255, 255, 0);
+    border-radius: 50%;
+    padding: 15px;
+    margin-top: 150px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+ul li a {
+    text-shadow: 1px 1px 1px rgb(255, 94, 0);
+    color: rgb(12, 12, 12);
+}
+
+ul li:hover {
+    background-color: rgb(68, 0, 255);
+}
+
+ul li a:hover {
+    color: rgb(0, 255, 0);
+    text-shadow: 1px 1px 1px rgb(12, 12, 12);
 }
